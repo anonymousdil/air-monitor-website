@@ -42,7 +42,7 @@ React Dashboard          FastAPI (Python)
 (Vercel)                 (Render)
     │                         │
     ├── Live charts            ├── /predict (ML model)
-    ├── Sensor cards           └── /ai-advice (Claude AI)
+    ├── Sensor cards           
     └── Recommendations
 ```
 
