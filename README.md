@@ -85,7 +85,7 @@ React Dashboard          FastAPI (Python)
 | FastAPI | REST API framework |
 | Scikit-learn | Random Forest ML model |
 | Joblib | Model serialization |
-| httpx | Async HTTP client for Claude AI |
+| httpx | Async HTTP client |
 | Uvicorn | ASGI server |
 
 ### Frontend
@@ -187,7 +187,7 @@ API will be live at `http://localhost:8000`
 **Endpoints:**
 - `GET /` — Health check
 - `POST /predict` — ML prediction from sensor data
-- `POST /ai-advice` — Claude AI recommendations
+
 
 ---
 
@@ -259,22 +259,6 @@ smart-air-monitor/
 
 ---
 
-## 📝 Resume Description
-
-> Built a full-stack IoT indoor air monitoring system using ESP32, MQ135, and DHT22 sensors. Transmitted real-time sensor data to Supabase PostgreSQL via REST API. Developed a React dashboard with live area charts and smart recommendations. Trained a Random Forest ML model achieving 97.5% accuracy (R²=0.9746) on real IoT data. Deployed ML inference as a FastAPI REST API on Render, with the frontend live on Vercel.
-
----
-
-## 🔮 Future Improvements
-
-- [ ] Push notifications when air quality drops
-- [ ] Historical analytics page with daily/weekly trends
-- [ ] Support for multiple rooms/devices
-- [ ] Mobile app (React Native)
-- [ ] CO₂ specific sensor (MH-Z19) for more accurate readings
-- [ ] Automated fan/AC control via relay module
-
----
 
 ## 👨‍💻 Author
 
