@@ -1,6 +1,6 @@
 # 🌿 Smart Air Monitor
 
-> A full-stack IoT system that monitors indoor air quality in real time, stores data in the cloud, and uses machine learning to predict future air conditions.
+Note: The repository now includes an esp32/ folder containing the ESP32 firmware (Arduino sketch, libraries, and helper code). See esp32-main.ino for the firmware entry point and wiring examples — this is the code flashed to the device.
 
 **Live Demo:** [smart-air-monitor-system.vercel.app](https://smart-air-monitor-system.vercel.app)  
 **ML API:** [air-monitor-api.onrender.com](https://air-monitor-api.onrender.com)
